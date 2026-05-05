@@ -9,6 +9,7 @@ public class Collectible : MonoBehaviour
         {
             Debug.Log("A physical collision has been detected! Collector name: " + collision.gameObject.name);
 
+
             // call GameManager to update the score or collected items count
             if (GameManager.instance != null)
             {
