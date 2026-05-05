@@ -32,7 +32,7 @@ public class GameManager : MonoBehaviour
         collectedItems++;
         Debug.Log("Item collected! Total collected: " + collectedItems + "/" + totalItems);
     }
-
+    
     public bool AllItemsCollected()
     {
         return collectedItems >= totalItems;
