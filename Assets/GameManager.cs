@@ -16,6 +16,7 @@ public class GameManager : MonoBehaviour
         }
         else
         {
+
             Destroy(gameObject);
         }
     }
